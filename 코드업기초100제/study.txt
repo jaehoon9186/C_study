@@ -16,3 +16,26 @@ d에 cs를 넣는다면 |c|s|\0| 으로 메모리에 저장됨.
 * 정수 나눠서 입력받는법 
     scanf("%1d%1d%1d%1d%1d", &a, &b, &c, &d, &e);
 5개의 정수를 한개씩 입력받음. 
+
+
+
+** 비트단위(bitwise) 연산자는,
+~(bitwise not), &(bitwise and), |(bitwise or), ^(bitwise xor),
+<<(bitwise left shift), >>(bitwise right shift)
+가 있다.
+
+* 3항 연산자 
+    printf("%d", a>b ? a:b);
+조건 ? 참:거짓 
+
+
+* goto 구문
+reload:
+    goto reload;
+
+goto문은 들여쓰기를 사용하지 않는다. 이름, 콜론으로 구성
+남용 x
+
+
+
+

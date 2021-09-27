@@ -8,6 +8,6 @@ int main(){
     printf("%lld\n", a*b);
     printf("%lld\n", a/b);
     printf("%lld\n", a%b);
-    printf("%.2f\n", a/b);
+    printf("%.2f\n", (float)a/b);
     return 0;
 }
